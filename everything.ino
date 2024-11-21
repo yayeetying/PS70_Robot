@@ -4,8 +4,9 @@
 
 #define ROTARY_ENCODER_A_PIN 2
 #define ROTARY_ENCODER_B_PIN 3
-#define ROTARY_ENCODER_BUTTON_PIN 21
-#define ROTARY_ENCODER_VCC_PIN -1
+// #define ROTARY_ENCODER_BUTTON_PIN 21
+// The PIN below is NOT in use!
+#define ROTARY_ENCODER_VCC_PIN -1 
 // How many rotations corresponds to one "turn"; may have to calibrate with actual stepper motor
 #define ROTARY_ENCODER_STEPS 100 
 
