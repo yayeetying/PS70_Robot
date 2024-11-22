@@ -2,8 +2,8 @@
 #include <AccelStepper.h>
 #include "AiEsp32RotaryEncoder.h"
 
-#define ROTARY_ENCODER_A_PIN 2
-#define ROTARY_ENCODER_B_PIN 3
+#define ROTARY_ENCODER_A_PIN D18
+#define ROTARY_ENCODER_B_PIN D19
 // #define ROTARY_ENCODER_BUTTON_PIN 21
 // The PIN below is NOT in use!
 #define ROTARY_ENCODER_VCC_PIN -1 
@@ -16,11 +16,11 @@
 int TIMES_FULLY_ROTATED = 0;
 
 // Define pin connections
-const int vrxPin = 4;         // Joystick X-axis
-const int vryPin = 5;         // Joystick Y-axis
-const int servoxPin = 6;      // Servo pin
-const int stepPin = 8;        // Stepper motor step pin
-const int dirPin = 9;         // Stepper motor direction pin
+const int vrxPin = D2;         // Joystick X-axis
+const int vryPin = D15;         // Joystick Y-axis
+const int servoxPin = D12;      // Servo pin
+const int stepPin = D5;        // Stepper motor step pin
+const int dirPin = D23;         // Stepper motor direction pin
 
 Servo servo;
 
